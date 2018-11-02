@@ -28,48 +28,99 @@
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 
   <!-- Weglot Traduction script -->
-<!--   <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+ <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
 <script>
 	Weglot.setup({
 	  api_key: 'wg_f9929610dac95f2145951556be9a90203',
 	  originalLanguage: 'es',
-	  destinationLanguages : 'en'
-	 });
-</script> -->
+	  destinationLanguages : 'en',
+    styleOpt:{
+        fullname: false,
+        withname: false,
+        is_dropdown: false,
+        classF: "wg-flags flag-3"},
+        containerCss: "",
+     target: ".site-header__section--title",
+     sibling: null
+  });
+</script>
 <!-- Weglot Traduction script end -->
 
-<!-- Weglot Traduction script 2 -->
-<script>
-Weglot.setup({
-api_key: "wg_f9929610dac95f2145951556be9a90203",
-originalLanguage: "es",
-destinationLanguages : "en",
-styleOpt : { fullname: true , withname: true , is_dropdown: true , classF: "wg-flags flag-3" },
-exceptions: "#not-this-element,.not-this-class.p",
-excludePaths: "",
-dynamic: ".a-container-of-dynamic-content",
-autoSwitch: true,
-translateSearch: false,
-switchers: [
+<!-- Weglot Traduction style-->
+<!--.wg-default .wg-list
+{
+  margin-bottom: 627px;
+  margin-right: -26px;
+}
+.country-selector ul
+{
+  margin: 0 0 0 -24px;
+}
+</style>-->
+
+
+<!--<style type="text/css" media="screen">
+@media only screen and (max-width: 1281px)
+{
+  .wg-default .wg-list
   {
-    styleOpt:{
-      fullname: true,
-      withname: true,
-      is_dropdown: true,
-      classF: "wg-flags flag-3"
-    },
-    containerCss: "",
-    target: ".site-header__section--title",
-    sibling: null
+    margin-bottom: 726px;
+    margin-right: 104px;
   }
-]
-});
-</script>
-<!-- Weglot Traduction script 2 -->
+
+}
+</style>-->
+
+<!--
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+-->
+<style type="text/css" media="screen">
+@media only screen and (min-width: 1281px)
+{
+  .wg-default .wg-list
+  {
+    margin-bottom: 726px;
+    margin-right: 100px;
+  }
+}
+</style>
+
+<style type="text/css" media="screen">
+@media (min-width: 1025px) and (max-width: 1280px)
+{
+  .wg-default .wg-list
+  {
+    margin-bottom: 627px;
+    margin-right: -26px;
+  }
+  .country-selector ul
+  {
+    margin: 0 0 0 -24px;
+  }
+
+
+}
+</style>
+
+<!--<style type="text/css" media="screen">
+@media only screen and (min-width: 1280px)
+{
+  .wg-default .wg-list
+  {
+    margin-bottom: 627px;
+    margin-right: -26px;
+  }
+  .country-selector ul
+  {
+    margin: 0 0 0 -24px;
+  }
+}
+</style>-->
 
 
 
-
+<!-- Weglot Traduction style end -->
   </head>
 
 
